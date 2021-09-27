@@ -1,0 +1,29 @@
+{
+  "name": "zip-code-to-usa-city-state",
+  "version": "1.0.0",
+  "description": "Typescript/javascript helper util to extract city/state from zip code",
+  "main": "index.js",
+  "repository": "git@github.com:bherila/zip-code-to-usa-city-state.git",
+  "author": "Ben Herila <ben@herila.net>",
+  "license": "CC-BY-3.0-US",
+  "type": "module",
+  "devDependencies": {
+    "@elg/tscodegen": "^0.2.0",
+    "@react-native-community/bob": "^0.17.1",
+    "@types/node": "^16.10.1",
+    "csv-parser": "^3.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  },
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "dist",
+    "targets": [
+      "module",
+      "typescript"
+    ]
+  },
+  "scripts": {
+    "prepare": "bob build"
+  }
+}
