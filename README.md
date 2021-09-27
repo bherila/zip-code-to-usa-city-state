@@ -7,8 +7,14 @@ Use like this:
 ```typescript
 import zip from 'zip-code-to-usa-city-state'
 
-console.log(zip['07920'])
-// output: {city: 'Basking Ridge', state: 'NJ'}
+console.log(zip['12345'])
+// { city: 'NY', state: 'Schenectady' }
+```
+
+Try it
+
+```bash
+node test.js
 ```
 
 Data source is from GeoNames and used here with attribution in accordance with license instructions at 
