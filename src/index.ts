@@ -1,11 +1,11 @@
 /**
  * This file is generated. Do not modify it manually.
  *
- * @generated Codelock<<xap+kVl8Zhf0I/iR0Tnk4rXBHyDQndwB>>
+ * @generated Codelock<<WB/UIJOSj9S1D7+nS5Xgyu38qVOfkWVZ>>
  */
 
-const p = (city, state) => ({ city, state });
-const map = {
+const p = (city: string, state: string) => ({ city, state });
+const map: Record<string, { city: string; state: string }> = {
   "99553": p("AK", "Akutan"),
   "99571": p("AK", "Cold Bay"),
   "99583": p("AK", "False Pass"),

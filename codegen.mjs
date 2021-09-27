@@ -52,8 +52,8 @@ const stateJS = await promise;
 new CodeFile("./src/index.ts")
   .build((builder) =>
     builder
-      .addLine(`const p = (city, state) => ({city, state})`)
-      .addLine(`const map = { ${stateJS} }`)
+      .addLine(`const p = (city: string, state: string) => ({city, state})`)
+      .addLine(`const map: Record<string, {city: string, state: string}> = { ${stateJS} }`)
       .addLine("export default map")
       .format()
   )
