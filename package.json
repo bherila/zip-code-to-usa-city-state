@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Typescript/javascript helper util to extract city/state from zip code",
   "main": "lib/commonjs/index.js",
-  "repository": "git@github.com:bherila/zip-code-to-usa-city-state.git",
+  "repository": "http://github.com/bherila/zip-code-to-usa-city-state",
   "author": "Ben Herila <ben@herila.net>",
   "license": "CC-BY-3.0-US",
   "type": "module",
